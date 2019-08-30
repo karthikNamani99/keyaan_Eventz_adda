@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bgBottomNavigation">#E40834</color>
+    <color name="colorPrimaryWhite">#ffffff</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_pink">#E614E2</color>
+    <color name="color_lightblack">#80000000</color>
+    <color name="color_blue">#42A9B6</color>
+    <color name="color_gray">#80ffffff</color>
+</resources>

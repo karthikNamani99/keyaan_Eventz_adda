@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keyaanapplication">
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_2"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.Navigation_drawer" />
+
+        <activity android:name=".activities.Venues_Activity" />
+        <activity android:name=".activities.Earnald_Resert" />
+        <activity android:name=".activities.Decorations_Activity" />
+
+        <activity android:name=".activities.Videography_Activity" />
+        <activity android:name=".activities.Photography_Activity" />
+        <activity android:name=".activities.Entertainment_Activity" />
+        <activity android:name=".activities.Catering_Activity" />
+        <activity android:name=".activities.Gallery_Images_Activity" />
+
+        <activity android:name=".activities.Images_Activity" />
+
+
+    </application>
+
+</manifest>

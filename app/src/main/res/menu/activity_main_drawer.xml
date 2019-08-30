@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_me"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_me" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_inbox" />
+        <item
+            android:id="@+id/nav_wmg_deals"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_wmg_deals" />
+        <item
+            android:id="@+id/nav_join_wedding"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_join_wedding" />
+
+        <item
+            android:id="@+id/nav_create_wedding"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_create_wedding" />
+
+        <item
+            android:id="@+id/nav_genie_services"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_genie_services" />
+        <item
+            android:id="@+id/nav_write_review"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_write_review" />
+        <item
+            android:id="@+id/nav_Promotions"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_promotions" />
+        <item
+            android:id="@+id/nav_contact_support"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_contact_support" />
+
+        <item
+            android:id="@+id/nav_Rate_Play_Store"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_rate_play_store" />
+
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_share_app" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/inbox"
+            android:title="@string/nav_about" />
+
+    </group>
+
+
+
+</menu>

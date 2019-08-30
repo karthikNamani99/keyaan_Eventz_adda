@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Eventz Adda</string>
+    <string name="appbar_scrolling_view_behavior" />
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_wmg_deals">WMG Deals</string>
+    <string name="nav_join_wedding">Joining A Wedding</string>
+    <string name="nav_create_wedding">Create Your Wedding</string>
+    <string name="nav_genie_services">Genie Services</string>
+    <string name="nav_write_review">Write a Review</string>
+    <string name="nav_promotions">Promotions</string>
+    <string name="nav_contact_support">Contact Support</string>
+    <string name="nav_rate_play_store">Rate on Play Store</string>
+    <string name="nav_share_app">Share this App</string>
+    <string name="nav_about">About</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="title_vendors">Vendors</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_inspiration">Inspiration</string>
+    <string name="nav_me">Me</string>
+    <string name="about_hotel_cortyyard">Imperial Garden is a luxurious hotel which is a fitting tribute to the great Mughal builders of the past.This hotel has won prest...Read More</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Me</item>
+        <item>Inbox</item>
+        <item>WMG Deals</item>
+        <item>Join a Wdding</item>
+        <item>Create Your Wedding</item>
+        <item>Genie Services</item>
+        <item>Write a Review</item>
+        <item>Promotions</item>
+        <item>Contact Support</item>
+        <item>Rate on Play Store</item>
+        <item>Share this App</item>
+        <item>About</item>
+    </string-array>
+</resources>

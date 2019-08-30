@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dimen_10"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/couple_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/heart"
+        android:text="5"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dimen_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/reviews"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_75"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:padding="@dimen/dimen_16">
+
+            <TextView
+                android:id="@+id/couple_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Himanshu weds Kruthika"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wedding_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Real wedding,Pune"
+                android:textSize="@dimen/dimen_14"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

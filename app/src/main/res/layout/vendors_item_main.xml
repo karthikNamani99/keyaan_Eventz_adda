@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/itemback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_125"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="@dimen/dimen_5"
+        android:src="@drawable/background_college" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_125"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="eventname"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_18"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/dimen_24"
+            android:layout_height="@dimen/dimen_24"
+            android:layout_below="@id/textViewName"
+            android:layout_centerHorizontal="true"
+             />
+
+        <TextView
+            android:id="@+id/textViewresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:text="result"
+            android:textSize="@dimen/dimen_16"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
