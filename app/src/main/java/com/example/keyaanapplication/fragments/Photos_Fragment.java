@@ -15,15 +15,12 @@ import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.example.keyaanapplication.R;
-import com.felipecsl.asymmetricgridview.library.Utils;
-import com.felipecsl.asymmetricgridview.library.widget.AsymmetricGridView;
-import com.felipecsl.asymmetricgridview.library.widget.AsymmetricGridViewAdapter;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Photos_Fragment extends Fragment {
-    AsymmetricGridView listView;
 
 
     @Nullable

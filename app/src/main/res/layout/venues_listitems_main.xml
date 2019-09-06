@@ -11,7 +11,7 @@
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="@dimen/dimen_5"
         android:elevation="@dimen/dimen_5"
         card_view:cardBackgroundColor="@color/color_white"
         card_view:cardCornerRadius="@dimen/dimen_5"
@@ -20,7 +20,7 @@
         <LinearLayout
             android:id="@+id/layout_background"
             android:layout_width="match_parent"
-            android:layout_height="155dp"
+            android:layout_height="@dimen/dimen_155"
             android:background="#ffffff"
             android:gravity="center"
             android:orientation="horizontal">
@@ -36,7 +36,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="155dp"
+                android:layout_height="@dimen/dimen_155"
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -56,7 +56,7 @@
 
                 <LinearLayout
                     android:layout_width="@dimen/dimen_50"
-                    android:layout_height="25dp"
+                    android:layout_height="@dimen/dimen_25"
                     android:layout_marginTop="@dimen/dimen_4"
                     android:background="#ffffff"
                     android:gravity="center|start"
@@ -93,7 +93,7 @@
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="25dp"
+                    android:layout_height="@dimen/dimen_25"
                     android:layout_marginTop="@dimen/dimen_4"
                     android:gravity="center"
                     android:orientation="horizontal">
@@ -125,7 +125,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="@dimen/dimen_25"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/dimen_4"
                     android:gravity="start|center"
